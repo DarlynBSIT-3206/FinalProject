@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ThirdFormPageRoutingModule } from './third-form-routing.module';
+import { PizzaForm1PageRoutingModule } from './pizza-form1-routing.module';
 
-import { ThirdFormPage } from './third-form.page';
+import { PizzaForm1Page } from './pizza-form1.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ThirdFormPageRoutingModule
+    PizzaForm1PageRoutingModule
   ],
-  declarations: [ThirdFormPage]
+  declarations: [PizzaForm1Page]
 })
-export class ThirdFormPageModule {}
+export class PizzaForm1PageModule {}

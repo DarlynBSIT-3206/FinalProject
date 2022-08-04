@@ -20,13 +20,10 @@ const routes: Routes = [
     loadChildren: () => import('./delivery-form/delivery-form.module').then( m => m.DeliveryFormPageModule)
   },
   {
-    path: 'thirdform',
-    loadChildren: () => import('./thirdform/thirdform.module').then( m => m.ThirdformPageModule)
+    path: 'pizza-form1',
+    loadChildren: () => import('./pizza-form1/pizza-form1.module').then( m => m.PizzaForm1PageModule)
   },
-  {
-    path: 'third-form',
-    loadChildren: () => import('./third-form/third-form.module').then( m => m.ThirdFormPageModule)
-  },
+
 ];
 
 @NgModule({

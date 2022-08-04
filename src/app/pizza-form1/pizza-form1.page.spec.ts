@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { ThirdFormPage } from './third-form.page';
+import { PizzaForm1Page } from './pizza-form1.page';
 
-describe('ThirdFormPage', () => {
-  let component: ThirdFormPage;
-  let fixture: ComponentFixture<ThirdFormPage>;
+describe('PizzaForm1Page', () => {
+  let component: PizzaForm1Page;
+  let fixture: ComponentFixture<PizzaForm1Page>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ThirdFormPage ],
+      declarations: [ PizzaForm1Page ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ThirdFormPage);
+    fixture = TestBed.createComponent(PizzaForm1Page);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
