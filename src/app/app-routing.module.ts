@@ -15,6 +15,18 @@ const routes: Routes = [
     path: 'first-page',
     loadChildren: () => import('./first-page/first-page.module').then( m => m.FirstPagePageModule)
   },
+  {
+    path: 'delivery-form',
+    loadChildren: () => import('./delivery-form/delivery-form.module').then( m => m.DeliveryFormPageModule)
+  },
+  {
+    path: 'thirdform',
+    loadChildren: () => import('./thirdform/thirdform.module').then( m => m.ThirdformPageModule)
+  },
+  {
+    path: 'third-form',
+    loadChildren: () => import('./third-form/third-form.module').then( m => m.ThirdFormPageModule)
+  },
 ];
 
 @NgModule({
