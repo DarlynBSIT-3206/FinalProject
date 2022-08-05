@@ -72,6 +72,10 @@ const routes: Routes = [
     path: 'rigester',
     loadChildren: () => import('./rigester/rigester.module').then( m => m.RigesterPageModule)
   },
+  {
+    path: 'checkout',
+    loadChildren: () => import('./checkout/checkout.module').then( m => m.CheckoutPageModule)
+  },
 
 ];
 
