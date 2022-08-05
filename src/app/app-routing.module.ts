@@ -2,14 +2,15 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
+ 
+  {
+    path: '',
+    redirectTo: 'login-form',
+    pathMatch: 'full'
+  },
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },
-  {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
   },
   {
     path: 'first-page',
@@ -58,6 +59,18 @@ const routes: Routes = [
   {
     path: 'pizza10',
     loadChildren: () => import('./pizza10/pizza10.module').then( m => m.Pizza10PageModule)
+  },
+  {
+    path: 'login-form',
+    loadChildren: () => import('./login-form/login-form.module').then( m => m.LoginFormPageModule)
+  },
+  {
+    path: 'signup',
+    loadChildren: () => import('./signup/signup.module').then( m => m.SignupPageModule)
+  },
+  {
+    path: 'rigester',
+    loadChildren: () => import('./rigester/rigester.module').then( m => m.RigesterPageModule)
   },
 
 ];
