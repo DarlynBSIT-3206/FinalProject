@@ -1,0 +1,25 @@
+.toolbar{
+    height: 84px;
+    color: #69a03a;
+    font-size: 20px;
+    line-height: 50px;
+}
+.container{
+    width: 50%;
+     ion-thumbnail{
+        width: 50% !important;
+        height: 50px !important;
+         img{
+            border-radius: 20px;
+         }
+     }
+     .rate{
+        color: #ccc ;
+     }
+     #btn{
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #69a03a;
+     }
+     
+}
